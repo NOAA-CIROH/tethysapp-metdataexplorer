@@ -2,6 +2,7 @@ from setuptools import setup, find_namespace_packages
 from setup_helper import find_all_resource_files
 
 # -- Apps Definition -- #
+
 namespace = 'tethysapp'
 app_package = 'metdataexplorer'
 release_package = 'tethysapp-' + app_package
